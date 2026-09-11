@@ -1,0 +1,144 @@
+body {
+    background-color: #d2f4f7;
+}
+
+@media (max-width: 400px) {
+    a.hide-on-small {
+        display: none;
+    }
+}
+
+@media (min-width: 580.20px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .card-img-top {
+        width: 30rem;
+    }
+}
+
+@media (min-width: 470px) and (max-device-width: 580px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .card-img-top {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 385px) and (max-device-width: 469.98px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .card-img-top {
+        width: 15rem;
+    }
+}
+
+@media (min-width: 360px) and (max-device-width: 384.98px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        width: 10rem;
+    }
+}
+
+@media (min-width: 333px) and (max-device-width: 359.98px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .card-img-top {
+        width: 8rem;
+    }
+}
+
+@media (min-width: 311px) and (max-device-width: 332.98px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .card-img-top {
+        width: 8rem;
+    }
+}
+
+@media (min-width: 1px) and (max-device-width: 310.98px) {
+    .navbar-brand-highlight {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    .card-img-top {
+        width: 8rem;
+    }
+}
+
+.carousel-inner {
+    max-width: 100%;
+    height: 300px;
+}
+
+.carousel-item img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
+
+@media (max-width: 767px) {
+    .carousel-inner {
+        height: 100px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 767.30px) {
+    .carousel-inner {
+        height: 200px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1000.30px) {
+    .carousel-inner {
+        height: 250px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.card:not(:first-child) {
+    margin-top: 1rem;
+}
